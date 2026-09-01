@@ -3,33 +3,37 @@
 # ==========================================
 
 print("--- 1. Calculadora ---")
+
 numero1 = 10.0
 numero2 = 2.0
-operacao = '+' 
+operacao = '+'
 
 if operacao == '+':
     print("Resultado da soma:", numero1 + numero2)
+
 elif operacao == '-':
     print("Resultado da subtração:", numero1 - numero2)
+
 elif operacao == '*':
     print("Resultado da multiplicação:", numero1 * numero2)
+
 elif operacao == '/':
-    if num2 != 0:
+    if numero2 != 0:
         print("Resultado da divisão:", numero1 / numero2)
     else:
         print("Erro: Não é possível dividir por zero!")
+
 else:
     print("Operação inválida.")
-
-print("\n")
 
 
 # ==========================================
 # 2. PAR OU ÍMPAR
 # ==========================================
+
 print("--- 2. Teste de Par ou Ímpar ---")
 
-numero= 7 
+numero = 7
 
 if numero % 2 == 0: 
     print("O número", numero, "é Par!")
